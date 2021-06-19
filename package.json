@@ -13,7 +13,7 @@
     "gulp-autoprefixer": "^8.0.0",
     "gulp-sass": "^4.1.0"
   },
-  "browserslist":[
+  "browserslist": [
     "> 1%",
     "last 2 versions"
   ]

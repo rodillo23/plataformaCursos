@@ -182,8 +182,6 @@ body {
     margin-bottom: 1rem; }
     .cursos .curso .imagen-curso {
       width: 100%; }
-    .cursos .curso .info-curso {
-      padding: 1rem; }
     @media screen and (min-width: 480px) {
       .cursos .curso {
         -webkit-box-flex: 0;
@@ -199,3 +197,69 @@ body {
         -webkit-box-flex: 0;
         -ms-flex: 0 1 calc(25% - 1rem);
         flex: 0 1 calc(25% - 1rem); } }
+
+.info-curso {
+  padding: 1rem; }
+  .info-curso h4 {
+    margin: 0;
+    font-size: 1.2rem; }
+  .info-curso .precio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .info-curso .precio .regular {
+      text-decoration: line-through;
+      color: red; }
+    .info-curso .precio .oferta {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: green; }
+  .info-curso .boton {
+    background: #741d51;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    text-align: center; }
+
+.footer {
+  border-top: 1px solid #d9d9d9;
+  margin-top: 1rem;
+  padding-top: 2rem; }
+  .footer .contenedor-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    @media screen and (min-width: 480px) {
+      .footer .contenedor-footer {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row; } }
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 1rem; }
+  @media screen and (min-width: 480px) {
+    .menu {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 1 calc(30% - 1rem);
+      flex: 0 1 calc(30% - 1rem); } }
+  .menu a {
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: .5rem; }
